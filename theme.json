@@ -1,0 +1,16 @@
+{
+  "id": "zen-folder-colors",
+  "name": "Zen folder colors",
+  "description": "Couleur persistante des zen-folder, entrée Modifier au clic droit et panneau à la création.",
+  "scripts": {
+    "zen-folder-colors.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  },
+  "style": {
+    "chrome": "chrome.css"
+  },
+  "author": "arcozzz",
+  "version": "1.0.0",
+  "fork": ["zen"]
+}

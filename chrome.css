@@ -1,0 +1,6 @@
+zen-folder {
+  background: color-mix(in srgb, var(--tab-group-color-invert) 22%, transparent) !important;
+}
+zen-folder > .tab-group-label-container > .tab-group-label {
+  color: light-dark(var(--tab-group-color), var(--tab-group-color-invert)) !important;
+}
